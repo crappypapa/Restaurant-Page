@@ -1,14 +1,33 @@
 const path = require('path');
-const { mainModule } = require('process');
 
 module.exports = {
-	mode: 'development',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
-	devServer: {
-		contentBase: './dist',
-	},
+  devServer: {
+    contentBase: './dist',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/,
+        use: [
+
+          'file-loader',
+          'url-loader',
+        ],
+      },
+    ],
+  },
 };
