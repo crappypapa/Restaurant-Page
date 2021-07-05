@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo](https://shaher-11.github.io/restaurant-page/)
+[Live Demo](https://crappypapa.github.io/Restaurant-Page/)
 
 ### Installation
 
