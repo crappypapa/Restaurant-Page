@@ -11,25 +11,28 @@ export const navBar = () => {
 
   const navHome = document.createElement('li');
   const home = document.createElement('a');
-  home.classList.add('nav-link');
+  home.classList = 'nav-link';
   home.href = '#home';
   home.textContent = 'HOME';
+  home.id = 'homes';
   navHome.classList.add('nav-item');
   navHome.appendChild(home);
 
   const navMenu = document.createElement('li');
   const menu = document.createElement('a');
-  menu.classList.add('nav-link');
+  menu.classList = 'nav-link';
   menu.href = '#menu';
   menu.textContent = 'MENU';
+  menu.id = 'menus';
   navMenu.classList.add('nav-item');
 
   navMenu.appendChild(menu);
 
   const navContact = document.createElement('li');
   const contact = document.createElement('a');
-  contact.classList.add('nav-link');
+  contact.classList = 'nav-link';
   contact.href = '#contact';
+  contact.id = 'contacts';
   contact.textContent = 'CONTACT';
   navContact.classList.add('nav-item');
 

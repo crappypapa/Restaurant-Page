@@ -1,7 +1,6 @@
 export const contact = () => {
   const contactSection = document.createElement('div');
-  contactSection.className = 'section';
-  contactSection.classList = 'mx-4 mb-5';
+  contactSection.className = 'hide';
   contactSection.id = 'contact';
 
   const sectionTitle = document.createElement('h3');

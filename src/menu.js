@@ -39,7 +39,7 @@ export const menu = () => {
   ];
 
   const menuSection = document.createElement('div');
-  menuSection.className = 'section  mb-3';
+  menuSection.className = 'hide';
   menuSection.id = 'menu';
 
   const sectionTitle = document.createElement('h3');

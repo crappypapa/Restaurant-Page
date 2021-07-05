@@ -1,6 +1,4 @@
-
-
-.bg-image {
+.bg {
   padding: 15% 0 0 4%;
   background:
     linear-gradient(to left, rgba(5, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -8,10 +6,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 100vh;
 }
 
-.bg-image h1 {
+.bg-img h1 {
   font-size: 3.5rem;
   font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

@@ -1,6 +1,6 @@
 export const home = () => {
   const landing = document.createElement('div');
-  landing.classList.add('bg-image');
+  landing.className = 'bg';
   landing.id = 'home';
 
   const heading = document.createElement('h1');
