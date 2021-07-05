@@ -1,0 +1,39 @@
+$primary: teal;
+$bg-main: hsl(218, 28%, 13%);
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-main;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.card-body {
+  color: $bg-main;
+}
+
+.section {
+  width: 90%;
+  margin: auto;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+
+  li {
+    padding-right: 1rem;
+  }
+}
+
+img {
+  width: auto;
+  height: 300px;
+}
