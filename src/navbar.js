@@ -44,3 +44,5 @@ export const navBar = () => {
 
   return nav;
 };
+
+export default navBar;

@@ -96,3 +96,4 @@ export const menu = () => {
 
   return menuSection;
 };
+export default menu;

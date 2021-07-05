@@ -10,3 +10,5 @@ export const home = () => {
 
   return landing;
 };
+
+export default home;

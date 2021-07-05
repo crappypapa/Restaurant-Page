@@ -45,3 +45,5 @@ export const contact = () => {
 
   return contactSection;
 };
+
+export default contact;
