@@ -4,7 +4,7 @@
 
 > This the project of the restaurant page built entirely with javascript and the good usage of webpack.
 
-![screenshot](images\feastaurant.png)
+![screenshot](./images/feastaurant.png) 
 
 ## Built with
 
