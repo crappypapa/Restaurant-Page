@@ -1,17 +1,16 @@
-
 export const contact = () => {
-    const contactSection = document.createElement('div');
-    contactSection.className = 'section';
-    contactSection.classList = 'mx-4 mb-5';
-    contactSection.id = 'contact';
-  
-    const sectionTitle = document.createElement('h3');
-    sectionTitle.className = 'px-5';
-    sectionTitle.innerHTML = 'Get In Touch';
-  
-    const form = document.createElement('form');
-    form.actinon = '#';
-    form.innerHTML = `
+  const contactSection = document.createElement('div');
+  contactSection.className = 'section';
+  contactSection.classList = 'mx-4 mb-5';
+  contactSection.id = 'contact';
+
+  const sectionTitle = document.createElement('h3');
+  sectionTitle.className = 'px-5';
+  sectionTitle.innerHTML = 'Get In Touch';
+
+  const form = document.createElement('form');
+  form.actinon = '#';
+  form.innerHTML = `
     <div>
       <div class="container mb-5">
           <div class="row justify justify-content-center">
@@ -40,9 +39,9 @@ export const contact = () => {
       </div>
   </div>
     `;
-  
-    contactSection.appendChild(sectionTitle);
-    contactSection.appendChild(form);
-  
-    return contactSection;
-  };
+
+  contactSection.appendChild(sectionTitle);
+  contactSection.appendChild(form);
+
+  return contactSection;
+};

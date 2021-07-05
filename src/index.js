@@ -11,4 +11,3 @@ const contentDiv = document.getElementById('content');
 contentDiv.append(home());
 contentDiv.append(menu());
 contentDiv.append(contact());
-
