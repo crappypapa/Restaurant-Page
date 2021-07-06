@@ -1,0 +1,23 @@
+.bg {
+  padding: 15% 0 0 4%;
+  background:
+    linear-gradient(to left, rgba(5, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./8a365d3a82feb32cae5d38a8c598685c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.bg-img h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
